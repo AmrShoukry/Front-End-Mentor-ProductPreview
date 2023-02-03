@@ -1,0 +1,24 @@
+.patterntext
+{
+    position: fixed;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -10;
+    left: 0;
+    top: 0;
+}
+
+p.repeated
+{
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    text-transform: uppercase;
+    font-size: 30px;
+    width: fit-content;
+    transform-origin: left;
+    transform: rotate(-45deg);
+    white-space: nowrap;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 900;
+}
